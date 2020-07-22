@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Survey Form </title>
+    </head>
+    <body id="body">
+        <header>
+            <h1 id="title"> MusicWorld Survey Form </h1>
+            <p id="description">Thank you for taking the time to help us improve the platform..</p>
+        </header>
+
+        <main>
+            <form id="survey-form">
+                <label for="name">
+                    Name 
+                    <br><input type="text" id="name" placeholder="Enter your name here..">
+                </label><br><br>
+
+                <label for="email">
+                    Email Address 
+                    <br><input type="email" id="email" placeholder="Enter your email address here.."><br><br>
+                </label>
+
+                <label for="number">
+                    Age 
+                    <br><input type="number" min=18 max=70 id="number" placeholder="Enter your age here..">
+                </label><br><br>
+
+                <label for="singer">
+                    Who is your favorite singer..?
+                    <br><input type="radio" id="rdo-btn1" name="singer" value="Arijit Singh">Arijit Singh
+                    <br><input type="radio" id="rdo-btn2" name="singer" value="Sonu Nigam">Sonu Nigam
+                    <br><input type="radio" id="rdo-btn3" name="singer" value="Armaan Malik ">Armaan Malik 
+                    <br><input type="radio" id="rdo-btn4" name="singer" value="Shreya Ghoshal">Shreya Ghoshal
+                    <br><input type="radio" id="rdo-btn5" name="singer" value="S. P. Balasubrahmanyam">S. P. Balasubrahmanyam
+                    <br><input type="radio" id="rdo-btn6" name="singer" value="Neha Kakkar">Neha Kakkar
+                </label><br><br>
+
+                <label for="mob-no">
+                    Mobile No. 
+                    <br><input type="text" id="mob-no" placeholder="Enter your mobile number here..">
+                </label><br><br>
+
+                <label for="current-role">
+                    What is your Current Role..?
+                    <br><select id="dropdown">
+                        <option name="op1" value="student">Student</option>
+                        <option name="op2" value="enterprenuer">Enterprenuer</option>
+                        <option name="op3" value="employee">Employee</option>
+                        <option name="op4" value="celebrity">Celebrity</option>
+                        <option name="op5" value="other">Other</option>
+                    </select>
+                </label><br><br>
+
+                <label for="fav-music">
+                    Which are your favorite music types..?
+                    <br><input type="checkbox" id="ch1" value="hip-hop">Hip-hop music
+                    <br><input type="checkbox" id="ch2" value="jazz">Jazz
+                    <br><input type="checkbox" id="ch3" value="rock">Rock
+                    <br><input type="checkbox" id="ch4" value="pop">Pop music
+                    <br><input type="checkbox" id="ch5" value="classical">classical music
+                    <br><input type="checkbox" id="ch6" value="soul">Soul music
+                    <br><input type="checkbox" id="ch7" value="other">Other
+                    <br><input type="text" id="other-type" placeholder="Which other type of music do you love..?" disabled>
+                </label><br><br>    
+
+                <label for="suggestions">
+                    Any Comments or Suggestions..?
+                    <br><input type="textarea" id="suggestions" placeholder="Enter your comments here..">
+                </label><br><br>
+
+                <br><button type="submit" id="submit"> Submit </button><br><br><br>
+            </form>
+        </main>
+
+        <footer>
+            <a href="https://elastic-ptolemy-bb4a37.netlify.app" id="reference" class="ref-link">MusicWorld.com</a><br>
+            <p id="footer-txt">2020 © Company.Ltd All Rights Reserverd</p>
+        </footer>
+    </body>
+</html>
