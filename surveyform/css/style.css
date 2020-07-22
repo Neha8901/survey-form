@@ -1,0 +1,12 @@
+#body{
+    background-image: url(../images/img2.png);
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    width: 50vw;
+    background: rgba(63, 63, 71, 0.5);
+    text-align: center;
+    margin: auto;
+}
