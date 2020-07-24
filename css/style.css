@@ -38,8 +38,8 @@ header {
 }
 
 @media (min-width: 400px) {
-    main {
-        padding: 1.5rem;
+    #root {
+        padding: 2.5rem;
     }
 }
 
@@ -54,6 +54,7 @@ header {
 input[type="text"], input[type="email"], input[type="number"], textarea, select {
     width: 40vw;
     margin-top: 0.5vmin;
+    padding: 0.5vmin;
     font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
     line-height: 1.5;
     font-size: 16px;
