@@ -37,16 +37,79 @@ header {
     margin: auto;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 400px) {
     main {
-        padding: 2.5rem;
+        padding: 1.5rem;
     }
 }
 
 #survey-form {
-    padding: 10vmin;
+    width: 40vw;
+    padding: 1.5em;
     color: white;
     text-align: left;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 40vw;
+    margin-top: 0.5vmin;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#number, #mob-no {
+    width: 16vw;
+}
+
+.box-container {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.age {
+    width: 40%;
+}
+
+.mobno {
+    width: 40%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 0.5vmin;
+}
+
+#suggestions {
+    height: 12vh;
+}
+
+button {
+    width: 20vw;
+    margin: auto;
+    padding: 0.8vmin;
+    border-radius: 6px;
+    background: green;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    border: 1.5px solid lawngreen;
+}
+
+#submit {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+button:clicked {
+    display: inline-block;
+    z-index: -1;
+    transform-origin: 0% 50%;
 }
 
 footer {
